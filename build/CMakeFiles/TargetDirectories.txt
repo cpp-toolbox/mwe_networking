@@ -1,0 +1,6 @@
+/home/ccn/projects/opengl_toolbox_organization/mwe_networking/build/CMakeFiles/mwe_networking.dir
+/home/ccn/projects/opengl_toolbox_organization/mwe_networking/build/CMakeFiles/edit_cache.dir
+/home/ccn/projects/opengl_toolbox_organization/mwe_networking/build/CMakeFiles/rebuild_cache.dir
+/home/ccn/projects/opengl_toolbox_organization/mwe_networking/build/external_libraries/enet/CMakeFiles/enet_static.dir
+/home/ccn/projects/opengl_toolbox_organization/mwe_networking/build/external_libraries/enet/CMakeFiles/edit_cache.dir
+/home/ccn/projects/opengl_toolbox_organization/mwe_networking/build/external_libraries/enet/CMakeFiles/rebuild_cache.dir

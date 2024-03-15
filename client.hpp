@@ -1,0 +1,6 @@
+#ifndef MWE_NETWORKING_CLIENT_HPP
+#define MWE_NETWORKING_CLIENT_HPP
+
+int run_client();
+
+#endif //MWE_NETWORKING_CLIENT_HPP

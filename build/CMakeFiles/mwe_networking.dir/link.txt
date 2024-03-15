@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/mwe_networking.dir/main.cpp.o CMakeFiles/mwe_networking.dir/server.cpp.o CMakeFiles/mwe_networking.dir/client.cpp.o -o mwe_networking  external_libraries/enet/libenet_static.a 

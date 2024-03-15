@@ -1,0 +1,2 @@
+/usr/bin/ar qc libenet_static.a CMakeFiles/enet_static.dir/test/library.c.o
+/usr/bin/ranlib libenet_static.a
