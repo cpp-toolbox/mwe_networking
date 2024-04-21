@@ -3,4 +3,4 @@
 
 int run_client();
 
-#endif //MWE_NETWORKING_CLIENT_HPP
+#endif // MWE_NETWORKING_CLIENT_HPP

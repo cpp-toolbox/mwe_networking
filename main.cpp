@@ -4,7 +4,6 @@
 #include "server.hpp"
 #include <string.h>
 
-
 int main(int argc, char *argv[]) {
     if (argc == 2) {
         if (!strcmp(argv[1], "c")) {
@@ -15,7 +14,8 @@ int main(int argc, char *argv[]) {
             run_server_loop();
         }
     } else {
-        throw std::runtime_error("program requires exactly one argument specifying to start the server or client (s/c)");
+        throw std::runtime_error(
+            "program requires exactly one argument specifying to start the server or client (s/c)");
     }
     return 0;
 }
