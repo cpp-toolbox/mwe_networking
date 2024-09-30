@@ -4,3 +4,27 @@
 [submodule "organizational_tools"]
 	path = organizational_tools
 	url = git@github.com:opengl-toolbox/organizational_tools.git
+[submodule "client/scripts"]
+	path = client/scripts
+	url = git@github.com:cpp-toolbox/scripts.git
+[submodule "client/client_networking"]
+	path = client/src/client_networking
+	url = git@github.com:cpp-toolbox/client_networking.git
+[submodule "server/server_networking"]
+	path = server/src/server_networking
+	url = git@github.com:cpp-toolbox/server_networking.git
+[submodule "server/scripts"]
+	path = server/scripts
+	url = git@github.com:cpp-toolbox/scripts.git
+[submodule "client/src/fixed_frequency_loop"]
+	path = client/src/fixed_frequency_loop
+	url = git@github.com:cpp-toolbox/fixed_frequency_loop.git
+[submodule "client/src/stopwatch"]
+	path = client/src/stopwatch
+	url = git@github.com:cpp-toolbox/stopwatch.git
+[submodule "client/src/logger_component"]
+	path = client/src/logger_component
+	url = git@github.com:cpp-toolbox/logger_component.git
+[submodule "server/src/logger_component"]
+	path = server/src/logger_component
+	url = git@github.com:cpp-toolbox/logger_component.git
