@@ -23,8 +23,13 @@ int main() {
     network.initialize_network();
     network.attempt_to_connect_to_server();
 
+    // run forever
+    std::function<bool()> term = []() { return false; };
+    // this has to be run because if not, then packets do not get sent back and forth
+    ENetEvent event;
+    std::function<void(double)> tick = [&](double dt) { enet_host_service(network.client, &event, 0); };
     /*// todo turn this into a network thing and pass a max wait time to it, note that it blocks.*/
-    /*wait_until_received_id_loop.start(2, check_for_client_id, got_client_id);*/
+    wait_until_received_id_loop.start(2, tick, term);
 
     return 0;
 }
